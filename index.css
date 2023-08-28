@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Lato&family=Merriweather:wght@300&family=Nabla&family=Poppins:wght@200&family=Roboto:ital,wght@0,400;1,400;1,500&family=Tilt+Prism&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.for-Outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    height: 100vh;
+    overflow: auto;
+    background-color: #193678;
+    background-color: #7d807e;
+}
+
+.for-heading{
+    font-family: Merriweather;
+    font-weight:bold;
+    text-align: center;
+}
+
+.for-form {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    border: 20px black solid;
+    text-align: center;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #252522;
+    background-color: black;
+}
+
+.for-input {
+    margin: 10px;
+    width: 230px;
+    height: 60px;
+    border: 1px solid #7d807e;
+    border-radius: 5px;
+    color: white;
+    text-align: right;
+    padding: 20px 6px 0px 6px;
+    font-size: 22px;
+    background-color: black;
+    box-shadow: inset 0px 0px 3px 0px olivedrab, 0px 0px 2px 0px orange;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.button-ele {
+    background-color: #252522;
+    width: 50px;
+    border: none;
+    margin: 5px;
+    height: 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 3px 0px black, 0px 0px 2px orange;
+}
+
+.button-ele:hover {
+    background-color: #215e42;
+}
+
+.button-ele:focus,
+.for-input:focus,
+.for-input:active,
+.button-ele:active {
+    outline: none;
+}
+
+.buttonClass {
+    background-color: #2f6ed4;
+    width: 50px;
+    border: none;
+    margin: 5px;
+    height: 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 3px 0px black, 0px 0px 2px orange;
+}
+
+.buttonClass:hover {
+    background-color: #215e42;
+}
+
+.equal {
+    width: 110px;
+}
